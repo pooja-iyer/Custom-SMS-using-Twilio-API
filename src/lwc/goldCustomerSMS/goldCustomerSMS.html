@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Contact Customer via SMS" icon-name="standard:sms">
+        <div>
+            <lightning-textarea name="smsBody" label="Content"></lightning-textarea>
+            <lightning-button variant="brand" label="Send SMS" onclick={sendSMS}></lightning-button>
+        </div>
+
+    </lightning-card>
+</template>
